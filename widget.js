@@ -2583,7 +2583,7 @@ chilipeppr.publish("/com-chilipeppr-widget-serialport/send", "G1 X10 F500\\n");
             $(window).trigger('resize'); 
             
             // show the "Port List" tab
-            $('a[href=#com-chilipeppr-widget-serialport-portstab]').tab('show');
+            $('a[href="#com-chilipeppr-widget-serialport-portstab" ]').tab('show');
             
             // hide the warning
             $('#com-chilipeppr-widget-serialport .spjs-notconnectedwarning').addClass("hidden");
